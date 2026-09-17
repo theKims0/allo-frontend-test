@@ -1,11 +1,8 @@
 <template>
-  <v-app>
-    <v-main>
-      <router-view />
-    </v-main>
-  </v-app>
+  <div id="app" class="min-h-screen bg-gray-50 text-gray-900 font-sans antialiased">
+    <router-view />
+  </div>
 </template>
 
-<script lang="ts" setup>
-  //
+<script setup lang="ts">
 </script>

@@ -31,7 +31,7 @@ Berikut adalah penjelasan teknis mengenai bagaimana setiap kebutuhan fungsional 
   Beberapa roket dari API tidak memiliki nilai untuk atribut tertentu seperti `launch_cost`, `maiden_flight`, atau `image_url`. Aplikasi menangani kondisi ini dengan:
   - Menyediakan tampilan placeholder khusus jika gambar roket bernilai null atau gagal dimuat oleh browser.
   - Memformat biaya peluncuran menjadi format mata uang dolar jika ada, atau menampilkan teks "Data tidak tersedia" jika nilainya kosong.
-  - Menampilkan tanda strip ("—") jika negara atau tanggal penerbangan perdana tidak tercantum pada data API.
+  - Menampilkan tanda strip ("-") jika negara atau tanggal penerbangan perdana tidak tercantum pada data API.
   - Menampilkan teks fallback deskripsi jika roket belum memiliki deskripsi resmi.
 
 ---

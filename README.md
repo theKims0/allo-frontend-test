@@ -87,7 +87,4 @@ Sesuai panduan tugas, aplikasi ini terhubung ke Launch Library 2 API versi 2.2.0
   - **Fail / Error & Retry:** Jika koneksi terputus atau server mengembalikan error, aplikasi menampilkan pesan kesalahan yang ramah dan menyediakan tombol "Coba Lagi" (Retry) agar pengguna dapat melakukan request ulang tanpa me-refresh seluruh browser.
   - **Success:** Menampilkan data roket atau tampilan kosong yang rapi jika filter tidak menemukan hasil.
 
-- **Desain dan Tampilan:**
-  Dibangun menggunakan Tailwind CSS dengan tata letak yang bersih, aksen warna oranye SpaceX, kartu berpenampilan modern, serta grid yang responsif untuk berbagai ukuran layar (ponsel, tablet, dan desktop).
-
 ---
